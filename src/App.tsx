@@ -226,7 +226,7 @@ function App() {
               <div className="space-y-6 mt-12">
                 <div className="bg-blue-800/30 p-6 rounded-2xl backdrop-blur-sm border border-blue-700/30 transform hover:-translate-y-2 transition-all duration-300">
                   <Server className="text-blue-200 mb-4" size={32} />
-                  <h3 className="text-xl font-semibold text-white mb-2">Backend Expert</h3>
+                  <h3 className="text-xl font-semibold text-white mb-2">Backend Dev</h3>
                   <p className="text-blue-100">Specialized in scalable solutions</p>
                 </div>
                 <div className="bg-blue-800/30 p-6 rounded-2xl backdrop-blur-sm border border-blue-700/30 transform hover:-translate-y-2 transition-all duration-300">
