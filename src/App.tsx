@@ -319,35 +319,36 @@ function App() {
             </p>
           </div>
           <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-2xl shadow-xl p-8 backdrop-blur-lg bg-white/90 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-center gap-3 mb-8">
-                  <div className="p-3 bg-blue-50 rounded-lg">
-                    <Code2 className="text-blue-600" size={28} />
-                  </div>
-                  <h3 className="text-2xl font-semibold text-blue-900">Programming Languages</h3>
-                </div>
-                <div className="space-y-6">
-                  <SkillBar skill="Python" level={90} />
-                  <SkillBar skill="JavaScript/Node.js" level={85} />
-                  <SkillBar skill="SQL" level={80} />
-                </div>
-              </div>
-              <div className="bg-white rounded-2xl shadow-xl p-8 backdrop-blur-lg bg-white/90 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-center gap-3 mb-8">
-                  <div className="p-3 bg-blue-50 rounded-lg">
-                    <Database className="text-blue-600" size={28} />
-                  </div>
-                  <h3 className="text-2xl font-semibold text-blue-900">Databases</h3>
-                </div>
-                <div className="space-y-6">
-                  <SkillBar skill="PostgreSQL" level={85} />
-                  <SkillBar skill="MongoDB" level={80} />
-                  <SkillBar skill="Redis" level={75} />
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="bg-white rounded-2xl shadow-xl p-8 backdrop-blur-lg bg-white/90 hover:shadow-2xl transition-shadow duration-300">
+      <div className="flex items-center gap-3 mb-8">
+        <div className="p-3 bg-blue-50 rounded-lg">
+          <Code2 className="text-blue-600" size={28} />
+        </div>
+        <h3 className="text-2xl font-semibold text-blue-900">Programming Languages</h3>
+      </div>
+      <div className="space-y-6">
+        <SkillBar skill="C#" level={90} />
+        <SkillBar skill="JavaScript" level={65} />
+        <SkillBar skill="ASP.NET Core" level={90} />
+      </div>
+    </div>
+    <div className="bg-white rounded-2xl shadow-xl p-8 backdrop-blur-lg bg-white/90 hover:shadow-2xl transition-shadow duration-300">
+      <div className="flex items-center gap-3 mb-8">
+        <div className="p-3 bg-blue-50 rounded-lg">
+          <Database className="text-blue-600" size={28} />
+        </div>
+        <h3 className="text-2xl font-semibold text-blue-900">Tools &amp; Technologies</h3>
+      </div>
+      <div className="space-y-6">
+        <SkillBar skill="SQL Server" level={85} />
+        <SkillBar skill="Git" level={90} />
+        <SkillBar skill="Docker" level={60} />
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
 
