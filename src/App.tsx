@@ -273,7 +273,7 @@ function App() {
                 <div className="space-y-6">
                   <div className="group bg-blue-50 p-6 rounded-xl hover:bg-blue-100/50 transition-colors duration-300">
                     <h4 className="text-lg font-semibold mb-2 text-blue-900">Education</h4>
-                    <p className="text-gray-700">Currently pursuing advanced studies in Computer Science</p>
+                    <p className="text-gray-700">Currently pursuing  studies in High School</p>
                   </div>
                   <div className="group bg-blue-50 p-6 rounded-xl hover:bg-blue-100/50 transition-colors duration-300">
                     <h4 className="text-lg font-semibold mb-2 text-blue-900">Languages</h4>
