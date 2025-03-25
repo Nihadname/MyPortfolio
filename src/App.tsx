@@ -66,8 +66,7 @@ function App() {
         "Developed a VSCode extension that leverages AI-powered code assistance by integrating Deepsekk's technology, enhancing code suggestions, debugging, and refactoring directly within the editor.",
       technologies: ["TypeScript", "VSCode API", "Node.js", "Deepsekk"],
       image:image2,
-      projectLink: "https://github.com/Nihadname/aivscodeExtension",
-      SecondLink: "https://github.com/deepsekk/aivscodeExtension",
+      projectLink: "https://github.com/Nihadname/DeepSeekAiVsCodeExtension",
     },
     {
       title: "Full Auth Service for Internship",
