@@ -20,7 +20,7 @@ function App() {
 
   const projects = [
     {
-      title: "E-commerce Backend API",
+      title: " SmartElectronics E-commerce  Platform ",
       description:
         "Developed a scalable REST API using ASP.NET Core, featuring user authentication, product management, and order processing.",
       technologies: [
